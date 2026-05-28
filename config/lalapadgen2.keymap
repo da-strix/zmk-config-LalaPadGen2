@@ -93,7 +93,7 @@
             display-name = "system_layer";
             bindings = <
 &kp PAGE_UP             &kp LC(LS(TAB))  &kp UP_ARROW        &kp LC(TAB)      &kp HOME                                 &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
-&kp LG(LC(LEFT_ARROW))  &kp LEFT_ARROW   &kp DOWN_ARROW      &kp RIGHT_ARROW  &kp LG(LC(RIGHT_ARROW))                  &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &zip_dyn_scale_set
+&kp LG(LC(LEFT_ARROW))  &kp LEFT_ARROW   &kp DOWN_ARROW      &kp RIGHT_ARROW  &kp LG(LC(RIGHT_ARROW))                  &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &zip_dyn_scale_set ZDS_SC 2
 &kp PAGE_DOWN           &mkp MB4         &kp LC(LS(ESCAPE))  &mkp MB5         &kp END                                  &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
 &trans                  &trans           &trans              &trans           &trans                   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
                         &trans           &trans              &trans           &trans                   &trans  &trans  &trans                         &trans                         &trans                         &trans
