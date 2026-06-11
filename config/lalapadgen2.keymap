@@ -66,13 +66,13 @@
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp ASTERISK      &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp DOT                    &kp EXCLAMATION   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN   &kp GRAVE
-&kp EQUAL         &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                  &kp HASH          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(SEMI)  &kp LS(SINGLE_QUOTE)
-&kp NUMBER_0      &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                  &kp AMPERSAND     &kp CARET             &kp PERCENT            &kp DOLLAR    &kp BACKSLASH
-&trans            &trans             &trans        &trans        &trans     &trans  &trans  &trans            &trans                &trans                 &trans        &trans
+&kp ASTERISK      &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp DOT                    &kp EXCLAMATION   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp GRAVE
+&kp EQUAL         &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                  &kp HASH          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI     &kp SINGLE_QUOTE
+&kp NUMBER_0      &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                  &kp AMPERSAND     &kp CARET             &kp PERCENT            &kp DOLLAR   &kp BACKSLASH
+&trans            &trans             &trans        &trans        &trans     &trans  &trans  &trans            &trans                &trans                 &trans       &trans
                   &trans             &trans        &trans        &trans     &trans  &trans  &trans            &trans                &trans                 &trans
-&trans            &trans             &trans                                                                                         &trans                 &trans        &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans        &trans                     &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))     &trans                 &trans        &trans
+&trans            &trans             &trans                                                                                         &trans                 &trans       &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans        &trans                     &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))     &trans                 &trans       &trans
             >;
         };
 
