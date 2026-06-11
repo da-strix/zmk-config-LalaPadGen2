@@ -12,6 +12,9 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 config BT_MAX_CONN
     default 5
 
+config  BT_MAX_PAIRED
+    default 5
+
 endif
 
 if SHIELD_LALAPADGEN2_LEFT || SHIELD_LALAPADGEN2_RIGHT
